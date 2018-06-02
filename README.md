@@ -7,3 +7,4 @@ It contains function samples for the three main vendors, as well as jMeter confi
 
 [Azure](https://github.com/snavarropino/ServerlessWars/blob/master/Azure/README.md)
  
+ [Amazon](https://github.com/snavarropino/ServerlessWars/blob/master/Amazon/README.md)
