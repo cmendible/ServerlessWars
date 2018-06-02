@@ -1,0 +1,1 @@
+gcloud beta functions deploy helloGET --trigger-http

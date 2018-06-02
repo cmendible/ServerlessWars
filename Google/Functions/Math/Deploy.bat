@@ -1,0 +1,1 @@
+gcloud beta functions deploy mathGET --trigger-http
