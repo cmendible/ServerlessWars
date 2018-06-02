@@ -3,5 +3,7 @@ Code for "Serverless wars" meetup in MadridDotNet
 
 It contains function samples for the three main vendors, as well as jMeter configuration for stressing those functions
 
-[Google](Google/Readme.md)
+[Google](https://github.com/snavarropino/ServerlessWars/blob/master/Google/README.md)
+
+[Azure](https://github.com/snavarropino/ServerlessWars/blob/master/Azure/README.md)
  

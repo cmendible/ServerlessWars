@@ -14,7 +14,7 @@
 
     function mySlowFunction(baseNumber) {
       
-      console.log('starting');
+      console.log('Starting...');
       console.time('mySlowFunction');
       var result = 0;	
       for (var i = Math.pow(baseNumber, 10); i >= 0; i--) {		
