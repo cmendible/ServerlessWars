@@ -27,28 +27,32 @@ function mySlowFunction(baseNumber) {
 }
 ```
 
-We have tested with 2 different values for base number: 1 and 3, in the same manner we are doing for other vendors, usign following configuration
+We have tested with just one value for base number: 3 usign following configuration
 
-- Region: ???
+- Region: East US 2
+- App Insights: disabled
 
+However, we have added a second test in Azure, with the same function implemented in C# and .Net Core 2
 
 Obtained result are:
 
-Base number=1
+
+Base number=3. Javascript
 
 | Users        | Min           | Max  | Avg | Throughput |
 | ------------- |-------------:| -----:| -----: | -----: | 
-| 25      | ? | ?	 | ? | ? | 
-| 50      | ? | ? | ? | ? | 
-| 150      | ? | ? | ? | ? | 
+| 25      | 140   | 2631	| 237 | 92,4 | 
+| 50      | 141 | 8438 | 250 | 175,7 | 
+| 150      | 125 | 16534 | 352 | 382,3 | 
 
-Base number=3
+
+Base number=3. .NET Core
 
 | Users        | Min           | Max  | Avg | Throughput |
 | ------------- |-------------:| -----:| -----: | -----: | 
-| 25      | 158 | 6536	| 267 | 85,5 | 
-| 50      | 155 | 8412 | 357 | 127,9 | 
-| 150      | 154 | 9573 | 411 | 333 | 
+| 25      | 118   | 1387	| 198 | 113,1 | 
+| 50      | 118 | 14452 | 226 | 183,7 | 
+| 150      | 119 | 19111 | 289 | 425,2 | 
 
 
 ## Results and conclusions
