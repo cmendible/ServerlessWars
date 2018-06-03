@@ -142,7 +142,7 @@
           <stringProp name="HTTPSampler.port">443</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/api/HttpTriggerJS1?code=SHug8Bmt9M2joMmo7Y92oDKrauJC1zxSDzyV4BZ9wZXcx7DwbwM4ug==</stringProp>
+          <stringProp name="HTTPSampler.path">/api/core</stringProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -175,7 +175,7 @@
           <stringProp name="HTTPSampler.port">443</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/api/HttpTriggerJS1?code=SHug8Bmt9M2joMmo7Y92oDKrauJC1zxSDzyV4BZ9wZXcx7DwbwM4ug==</stringProp>
+          <stringProp name="HTTPSampler.path">/api/core</stringProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -208,7 +208,7 @@
           <stringProp name="HTTPSampler.port">443</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/api/HttpTriggerJS1?code=SHug8Bmt9M2joMmo7Y92oDKrauJC1zxSDzyV4BZ9wZXcx7DwbwM4ug==</stringProp>
+          <stringProp name="HTTPSampler.path">/api/core</stringProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
