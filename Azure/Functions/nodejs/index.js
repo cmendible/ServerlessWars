@@ -1,7 +1,7 @@
 module.exports = function (context, req) {
   var calculatedResult = 0;
 
-  calculatedResult = mySlowFunction(10);
+  calculatedResult = mySlowFunction(3);
   context.res = {
     body: 'Calculated value:' + calculatedResult
   };
